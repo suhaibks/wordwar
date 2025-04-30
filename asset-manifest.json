@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wordwar/static/css/main.b02286d7.css",
+    "main.js": "/wordwar/static/js/main.5f32224a.js",
+    "index.html": "/wordwar/index.html",
+    "main.b02286d7.css.map": "/wordwar/static/css/main.b02286d7.css.map",
+    "main.5f32224a.js.map": "/wordwar/static/js/main.5f32224a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b02286d7.css",
+    "static/js/main.5f32224a.js"
+  ]
+}
