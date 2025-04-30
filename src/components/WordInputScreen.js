@@ -29,7 +29,8 @@ const WordInputScreen = ({ onSubmitWords }) => {
   return (
     <div className="input-screen">
       <h2>WordWar</h2>
-      <p>ENTER THE SECRET WORDS <br /> <br/><b>DONT FORGET TO HIDE!</b></p>
+      <p>ENTER THE SECRET WORDS <br /> <br/><b>DON'T FORGET TO HIDE!</b></p>
+
       <form onSubmit={handleSubmit}>
         <input
           type="password"
@@ -62,6 +63,17 @@ const WordInputScreen = ({ onSubmitWords }) => {
           </div>
         </div>
       )}
+
+      <div className="game-rules">
+        <h3>📝 Game Rules</h3>
+        <ul>
+          <li>Each player secretly enters a word (minimum 5 letters).</li>
+          <li>You take turns guessing letters in your opponent’s word.</li>
+          <li>Correct letters are revealed. Incorrect guesses build the hangman.</li>
+          <li>First player to guess the full word wins!</li>
+          <li>Six wrong guesses and you lose!</li>
+        </ul>
+      </div>
     </div>
   );
 };
